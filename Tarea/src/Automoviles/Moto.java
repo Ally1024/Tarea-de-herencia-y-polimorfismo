@@ -11,5 +11,8 @@ public class Moto extends Vehiculo {
     @Override
     public void mover() {
         System.out.println("La moto se desplaza rápidamente entre el tráfico.");
+       System.out.println("Y se recarga con gasolina");
+
     }
 }
+
