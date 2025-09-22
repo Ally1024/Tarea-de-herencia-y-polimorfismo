@@ -11,7 +11,7 @@ public class Camion extends Vehiculo implements Combustible {
 
     @Override
     public void mover() {
-        System.out.println("El camión transporta carga por la autopista.");
+        System.out.println("El camión transporta carga pesada por la autopista.");
     }
 
     @Override
@@ -19,3 +19,4 @@ public class Camion extends Vehiculo implements Combustible {
         System.out.println("El camión se recarga con diésel.");
     }
 }
+
