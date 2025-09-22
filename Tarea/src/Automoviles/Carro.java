@@ -12,7 +12,7 @@ public class Carro extends Vehiculo implements Combustible {
 
     @Override
     public void mover() {
-        System.out.println("El carro avanza por la carretera.");
+        System.out.println("El carro avanza por la carretera a 100 km/h.");
     }
 
     @Override
@@ -20,3 +20,4 @@ public class Carro extends Vehiculo implements Combustible {
         System.out.println("El carro se recarga con gasolina.");
     }
 }
+
