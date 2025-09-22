@@ -9,7 +9,7 @@ public class Main {
         Vehiculo[] vehiculos = new Vehiculo[3];
         vehiculos[0] = new Carro("Toyota", "Corolla");
         vehiculos[1] = new Moto("Yamaha", "R15");
-        vehiculos[2] = new Camion("Volvo", "FH16");
+        vehiculos[2] = new Camion("Isuzu", "200");
 
         for (Vehiculo v : vehiculos) {
             v.mostrarInfo();
@@ -22,3 +22,4 @@ public class Main {
         }
     }
 }
+
